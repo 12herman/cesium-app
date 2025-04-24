@@ -1,5 +1,6 @@
 {
   "name": "cesium-app",
+  "homepage": "https://12herman.github.io/cesium-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
