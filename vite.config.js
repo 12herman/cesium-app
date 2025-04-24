@@ -7,6 +7,6 @@ export default defineConfig({
   base: '/cesium-app',
   plugins: [react(), cesium(), tailwindcss(),],
   define: {
-    CESIUM_BASE_URL: JSON.stringify('/'),
+    CESIUM_BASE_URL: JSON.stringify('./'),
   },
 });
