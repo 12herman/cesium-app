@@ -143,7 +143,7 @@ export default function BasicViewer() {
 
 
         {cesiumDatas.targetlocation && (
-          <CameraFlyTo once={false}  {...cesiumDatas.targetlocation} duration={4} />
+          <CameraFlyTo once={true}  {...cesiumDatas.targetlocation} duration={4} />
         )}
         {entities.map((e) => (
           <Entity
